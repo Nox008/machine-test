@@ -10,10 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="text-white px-6 py-2 flex justify-between items-center" style={{ backgroundColor: '#121618' }}>
-      {/* Logo and Brand Name */}
       <div className="flex items-center space-x-4" style={{ fontFamily: 'Oswald' }}>
         <img src={logo} alt="Logo" className="h-10" />
-        {/* Hide spans on small screens, show on medium and larger screens */}
         {/* <span className="hidden md:inline text-xl font-bold">DEEP</span>
         <span className="hidden md:inline text-xl font-bold">NET</span>
         <span className="hidden md:inline text-xl font-bold">SOFT</span> */}

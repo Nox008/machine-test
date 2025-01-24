@@ -11,7 +11,6 @@ const Middle = () => {
           backgroundPosition: 'center',
         }}
       >
-        {/* Overlay for dimming the background */}
         <div
           style={{
             position: 'absolute',
@@ -19,16 +18,14 @@ const Middle = () => {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(0, 0, 0, 0.8)', // Black with opacity
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
             zIndex: 1,
           }}
         ></div>
-
-        {/* Buttons and content */}
         <div
           className="flex mt-4 mb-4 space-x-4"
           style={{
-            position: 'relative', // Ensure this content stays above the overlay
+            position: 'relative',
             zIndex: 2,
           }}
         >
