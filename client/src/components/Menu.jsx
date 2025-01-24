@@ -7,7 +7,7 @@ const Menu = () => {
   const [menuItems, setMenuItems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/menu')
+    axios.get('https://dns-menu-backend.vercel.app/menu')
       .then(response => setMenuItems(response.data))
       .catch(error => console.error('Error fetching menu items:', error));
   }, []);
